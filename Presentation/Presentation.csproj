@@ -7,6 +7,7 @@
     <StartupObject>CleanArchitecture.Presentation.Program</StartupObject>
     <AssemblyName>CleanArchitecture.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>CleanArchitecture.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <UserSecretsId>2011053f-f0ec-4d78-a576-23fff3b03741</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -68,6 +69,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageReference Include="NUnit" Version="4.3.2" />

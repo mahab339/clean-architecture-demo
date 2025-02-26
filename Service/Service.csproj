@@ -7,6 +7,7 @@
     <StartupObject>CleanArchitecture.Service.Program</StartupObject>
     <AssemblyName>CleanArchitecture.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>CleanArchitecture.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <UserSecretsId>77b8d1b2-2acf-4993-802e-474007e771da</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
